@@ -1,5 +1,5 @@
 ## Part 1
-### Link: [link](https://github.com/ariema/lab3part1)
+### Link: [https://github.com/ariema/lab3part1](https://github.com/ariema/lab3part1)
 ### Branching Diagrams
 ### gitk: 
 ### ![image](images/branch_diagram1.PNG)
