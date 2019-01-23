@@ -1,15 +1,15 @@
 ## Part 1
 Link to lab2part1: [https://github.com/ariema/lab2part1](https://github.com/ariema/lab2part1) <br>
 ### Branching Diagrams
-gitk: <br>
+gitk: <br> <br>
 ![image](images/branch_diagram1.PNG) <br>
-gitk -all: <br>
+gitk -all: <br> <br>
 ![image](images/branch_diagram2.PNG) <br>
-git log command: <br>
+git log command: <br> <br>
 ![image](images/branch_diagram3.PNG) <br>
 
 ## Part 2
-Link to forked Spoon-knife: [https://github.com/ariema/Spoon-Knife](https://github.com/ariema/Spoon-Knife) <br>
+Link to forked Spoon-knife: [https://github.com/ariema/Spoon-Knife](https://github.com/ariema/Spoon-Knife) <br> <br>
 Learning git branching <br>
 ![image](images/git_game.PNG) <br>
 
