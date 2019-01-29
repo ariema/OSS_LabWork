@@ -12,7 +12,7 @@
 ### Subman
 
 * Number of contributers: 1
-* Lines of code: 0
+* Lines of code: 396
 * First commit:
   ```
   commit 6f54a402c42f3172591bfd158e9886fb3211f32e (HEAD -> master, origin/master, origin/HEAD)
@@ -30,8 +30,8 @@
   Initial commit
   ```
 * Branches: 1
-- **[Gource Video]()**
-- **Gitstat Screenshot:** ![]()
+* [Gource Video](https://youtu.be/ofq0f0YRoDY)
+* Gitstat Screenshot: ![](images/subman-gitstat.png)
 
 ### Submitty
 * Number of contributers: 3174
@@ -53,8 +53,8 @@
       [Bugfix] Move mouse to origin before centering (#3238)
   ```
 * Branches: 58
-* [Gource Video]()
-* Gitstat Screenshot: ![]()
+* [Gource Video]((https://youtu.be/iuhjHG7eck4)
+* Gitstat Screenshot: ![](https://youtu.be/iuhjHG7eck4)
 
 ### Syllabuild
 * Number of contributers:  0
@@ -63,7 +63,7 @@
 * Latest commit: N/A
 * Branches: 1
 * Gource Video: N/A
-* Gitstat Screenshot: ![]()
+* Gitstat Screenshot: N/A
 
 ### Tasty Tracks
 * Number of contributers: 1
@@ -85,8 +85,8 @@
       Update README.md
   ```
 * Branches: 1
-* [Gource Video]()
-* Gitstat Screenshot: ![]()
+* [Gource Video](https://youtu.be/FHbWsK3FhQ8)
+* Gitstat Screenshot: ![](images/tasty-tracks-gitstat.png)
 
 ### Technical Professionalism
 * Number of contributers: 1
@@ -108,7 +108,7 @@
       Initial commit
   ```
 * Branches: 1
-* [Gource Video]()
-* Gitstat Screenshot: ![]()
+* [Gource Video](https://youtu.be/leZG7VM6MEY)
+* Gitstat Screenshot: ![](images/technicalprofessionalism-gitstat.png)
 
 ## Part 2
