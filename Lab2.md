@@ -18,4 +18,4 @@ Link to my forked PullReq repository: [https://github.com/ariema/PullReq](https:
 
 Link to courseproject repository: [https://github.com/ariema/courseproject](https://github.com/ariema/courseproject) <br>
 
-Link to ProjectIdeas2019 shared repository: [https://github.com/ethanlynn/ProjectIdeas2019](https://github.com/ethanlynn/ProjectIdeas2019)
+Link to ProjectIdeas2019 shared repository: [https://github.com/ethanlynn/ProjectIdeas2019/tree/Table10](https://github.com/ethanlynn/ProjectIdeas2019/tree/Table10)
