@@ -31,7 +31,9 @@
   ```
 * Branches: 1
 * [Gource Video](https://youtu.be/ofq0f0YRoDY)
+* Leader: ChBoyShPd
 * Gitstat Screenshot: ![](images/subman-gitstat.png)
+* Comparison: Lines of code is off by one. Perhaps gitstats calculates it in a different manner
 
 ### Submitty
 * Number of contributers: 3174
@@ -54,7 +56,9 @@
   ```
 * Branches: 58
 * [Gource Video]((https://youtu.be/iuhjHG7eck4)
-* Gitstat Screenshot: ![](https://youtu.be/iuhjHG7eck4)
+* No clear leader
+* Gitstat Screenshot: ![](images/submitty-gitstat.png)
+* Comparison: Number of lines of code is way less on gitstats than from using git ls-files
 
 ### Syllabuild
 * Number of contributers:  0
@@ -86,7 +90,9 @@
   ```
 * Branches: 1
 * [Gource Video](https://youtu.be/FHbWsK3FhQ8)
+* Justin Carlson
 * Gitstat Screenshot: ![](images/tasty-tracks-gitstat.png)
+* Comparison: Number of lines of code is again off and is less on gitstats. 
 
 ### Technical Professionalism
 * Number of contributers: 1
@@ -109,6 +115,9 @@
   ```
 * Branches: 1
 * [Gource Video](https://youtu.be/leZG7VM6MEY)
+* Leader: Milena Gonzalez
 * Gitstat Screenshot: ![](images/technicalprofessionalism-gitstat.png)
+*Gitstats finds a line of code where git ls-files does not. 
+
 
 ## Part 2
