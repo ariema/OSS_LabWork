@@ -1,4 +1,4 @@
-"""
+    """
  Markdown.py
  0. just print whatever is passed in to stdin
  0. if filename passed in as a command line parameter, 
@@ -11,49 +11,48 @@
 import fileinput
 import re
 
-def convert_strong(line):
-    line = re.sub(r'\*\*(.*)\*\*', r'<strong>\1</strong>', line)
-    line = re.sub(r'__(.*)__', r'<strong>\1</strong>', line)
-    return line
+def convertStrong(line):
+  line = re.sub(r'\*\*(.*)\*\*', r'<strong>\1</strong>', line)
+  line = re.sub(r'__(.*)__', r'<strong>\1</strong>', line)
+  return line
 
-def convert_em(line):
-    line = re.sub(r'\*(.*)\*', r'<em>\1</em>', line)
-    line = re.sub(r'_(.*)_', r'<em>\1</em>', line)
-    return line
+def convertEm(line):
+  line = re.sub(r'\*(.*)\*', r'<em>\1</em>', line)
+  line = re.sub(r'_(.*)_', r'<em>\1</em>', line)
+  return line
 
-def convert_headers(line):
+def createHeaders(line):
     '''
-    Converts
-        ### ... -> <h3>...</h3>
-        ## ... -> <h2>...</h2>
-        # ... -> <h1>...</h1>
-    Strips leading and trailing whitespace from the header declaration
+    Function:
+        ### to <h3>...</h3>
+        ## to <h2>...</h2>
+        # to <h1>...</h1>
     '''
     line = re.sub(r'^\s*###\s*(.*)\s*$', r'<h3>\1</h3>', line)
     line = re.sub(r'^\s*##\s*(.*)\s*$', r'<h2>\1</h2>', line)
     line = re.sub(r'^\s*#\s*(.*)\s*$', r'<h1>\1</h1>', line)
     return line
 
-def strip_blockquote(line):
+def stripBlockquote(line):
     if line.startswith('>'):
         return re.sub(r'^\>\s?(.*)$', r'\1', line), True
     else:
-        return line, False
+        return line, False   
 
-prev_is_blockquote = False
+prevBQ = False
 for line in fileinput.input():
     line = line.rstrip() 
-    line, is_blockquote = strip_blockquote(line)
-    line = convert_headers(line)
-    line = convert_strong(line)
-    line = convert_em(line)
+    line, isBQ = strip_blockquote(line)
+    line = createHeaders(line)
+    line = createStrong(line)
+    line = createEm(line)
     if not line.startswith('<h'):
         line = '<p>' + line + '</p>'
-    if not prev_is_blockquote and is_blockquote:
+    if not prevBQ and isBQ:
         line = '<blockquote>' + line
-    if prev_is_blockquote and not is_blockquote:
+    if prevBQ and not isBQ:
         line = '</blockquote>' + line
-    prev_is_blockquote = is_blockquote
+    prevBQ = isBQ
     print(line)
-if prev_is_blockquote:
+if prevBQ:
     print('</blockquote>')

@@ -41,32 +41,32 @@ class TestMarkdownPy(unittest.TestCase):
         Lines beginning with a single '#' should become 'h1' tags
         '''
         self.assertEqual(
-                run_markdown('# This is a header'),
-                '<h1>This is a header</h1>')
+                run_markdown('# Big header'),
+                '<h1>Big header</h1>')
     
     def test_h2(self):
         '''
-        Lines beginning with two '#' should become 'h2' tags
+        Lines beginning with '##' should become 'h2' tags
         '''
         self.assertEqual(
-                run_markdown('## This is an h2 tag'),
-                '<h2>This is an h2 tag</h2>')
+                run_markdown('## Small Header'),
+                '<h2>Small Header</h2>')
     
     def test_h3(self):
         '''
-        Lines beginning with three '#' should become 'h3' tags
+        Lines beginning with '###' should become 'h3' tags
         '''
         self.assertEqual(
-               run_markdown('### This is an h3 tag'),
-                '<h3>This is an h3 tag</h3>')
+               run_markdown('### Tiny Header'),
+                '<h3>Tiny Header</h3>')
     
     def test_header_whitespace(self):
         '''
-        Header '#' declarations should strip extraneous whitespace in line
+        Header '#' declarations should strip extra whitespaces in line
         '''
         self.assertEqual(
-                run_markdown('#        extra   space     '),
-                '<h1>extra   space</h1>')
+                run_markdown('#          extra   spaces     '),
+                '<h1>extra   spaces</h1>')
     
     def test_blockquote(self):
         '''

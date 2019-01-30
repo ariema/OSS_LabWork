@@ -122,7 +122,7 @@
 
 ## Part 2
 
-### Links: [markdown.py](python/markdown.py), [test_markdown_unittest.py](python/test_markdown_unittest.py)
+### Links: [markdown.py](markdown.py), [test_markdown_unittest.py](test_markdown_unittest.py)
 
 First, we added `convert_header` in order to convert header tags with regular expressions:
 
