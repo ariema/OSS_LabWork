@@ -1,4 +1,4 @@
-    """
+"""
  Markdown.py
  0. just print whatever is passed in to stdin
  0. if filename passed in as a command line parameter, 
@@ -22,12 +22,6 @@ def convertEm(line):
   return line
 
 def createHeaders(line):
-    '''
-    Function:
-        ### to <h3>...</h3>
-        ## to <h2>...</h2>
-        # to <h1>...</h1>
-    '''
     line = re.sub(r'^\s*###\s*(.*)\s*$', r'<h3>\1</h3>', line)
     line = re.sub(r'^\s*##\s*(.*)\s*$', r'<h2>\1</h2>', line)
     line = re.sub(r'^\s*#\s*(.*)\s*$', r'<h1>\1</h1>', line)
@@ -42,10 +36,10 @@ def stripBlockquote(line):
 prevBQ = False
 for line in fileinput.input():
     line = line.rstrip() 
-    line, isBQ = strip_blockquote(line)
+    line, isBQ = stripBlockquote(line)
     line = createHeaders(line)
-    line = createStrong(line)
-    line = createEm(line)
+    line = convertStrong(line)
+    line = convertEm(line)
     if not line.startswith('<h'):
         line = '<p>' + line + '</p>'
     if not prevBQ and isBQ:
