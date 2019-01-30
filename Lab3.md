@@ -115,7 +115,7 @@
   ```
 * Branches: 1
 * [Gource Video](https://youtu.be/leZG7VM6MEY)
-* Leader: Milena Gonzalez
+	* Leader: Milena Gonzalez
 * Gitstat Screenshot: ![](images/technicalprofessionalism-gitstat.png)
 *Gitstats finds a line of code where git ls-files does not. 
 
