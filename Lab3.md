@@ -121,3 +121,74 @@
 
 
 ## Part 2
+
+### Links: [markdown.py](python/markdown.py), [test_markdown_unittest.py](python/test_markdown_unittest.py)
+
+First, we added `convert_header` in order to convert header tags with regular expressions:
+
+```python
+def convert_headers(line):
+    '''
+    Converts
+        ### ... -> <h3>...</h3>
+        ## ... -> <h2>...</h2>
+        # ... -> <h1>...</h1>
+    Strips leading and trailing whitespace from the header declaration
+    '''
+    line = re.sub(r'^\s*###\s*(.*)\s*$', r'<h3>\1</h3>', line)
+    line = re.sub(r'^\s*##\s*(.*)\s*$', r'<h2>\1</h2>', line)
+    line = re.sub(r'^\s*#\s*(.*)\s*$', r'<h1>\1</h1>', line)
+    return line
+```
+
+To handle blockquotes we had to know whether the previous line had a blockquote: 
+
+```python
+def strip_blockquote(line):
+    if line.startswith('>'):
+        return re.sub(r'^\>\s?(.*)$', r'\1', line), True
+    else:
+        return line, False
+
+prev_is_blockquote = False
+for line in fileinput.input():
+    line = line.rstrip() 
+    line, is_blockquote = strip_blockquote(line)
+    line = convert_headers(line)
+    line = convert_strong(line)
+    line = convert_em(line)
+    if not line.startswith('<h'):
+        line = '<p>' + line + '</p>'
+    if not prev_is_blockquote and is_blockquote:
+        line = '<blockquote>' + line
+    if prev_is_blockquote and not is_blockquote:
+        line = '</blockquote>' + line
+    prev_is_blockquote = is_blockquote
+    print(line)
+if prev_is_blockquote:
+    print('</blockquote>')
+```
+
+Then we added test cases for `h1`, `h2`, `h3`, and `blockquote`.
+
+### Example usage:
+```
+**bolded**
+para1
+para2
+> here is a _blockquote_
+> with **bold text**
+>
+# Header
+## Small header
+### Tiny header
+<p><strong>bolded</strong></p>
+<p>para1</p>
+<p>para2</p>
+<blockquote><p>here is a <em>blockquote</em></p>
+<p>with <strong>bold text</strong></p>
+<p></p>
+</blockquote><h1>Header</h1>
+<h2>Small header</h2>
+<h3>Tiny header</h3>
+```
