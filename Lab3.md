@@ -55,7 +55,7 @@
       [Bugfix] Move mouse to origin before centering (#3238)
   ```
 * Branches: 58
-* [Gource Video]((https://youtu.be/iuhjHG7eck4)
+* [Gource Video](https://youtu.be/iuhjHG7eck4)
 	* No clear leader
 * Gitstat Screenshot: ![](images/submitty-gitstat.png)
 * Comparison: Number of lines of code is way less on gitstats than from using git ls-files
