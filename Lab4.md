@@ -12,7 +12,8 @@ If a project does not have a license it is unknown what the user is allowed to d
 
 Yes, I do agree with this claim. The Web beat Gopher because the open source community supported HTTP, which in turn allowed the web to flourish. Gopher's downfall can be attributed to its need of internal innovation and the fact that it obtained bad publicity regarding licensing. I think that Web beat out Gopher simply because at the time the community thought it was the better path to take. 
 
-## 5. Since Linux is the base of open source operating systems, it is essential that it ensures that its source code remains open and free. This is an attribute of the GPL license. Also, the GPL states that one cannot charge for derivate works. This also is an attribute of Linux because lots of companies build off of it and thus it grows as a whole. 
+## 5. Why Linux uses GPL v2
+Since Linux is the base of open source operating systems, it is essential that it ensures that its source code remains open and free. This is an attribute of the GPL license. Also, the GPL v2 states that one cannot charge for derivate works. This also is an attribute of Linux because lots of companies build off of it and thus it grows as a whole. 
 Link to article: https://www.novell.com/coolsolutions/feature/1532.html
 
 ## 6. Project idea and license:
