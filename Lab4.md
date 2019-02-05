@@ -8,6 +8,12 @@ If a project does not have a license it is unknown what the user is allowed to d
 
 ## 4. Why the Web beat Gopher:
 
+Yes, I do agree with this claim. The Web beat Gopher because the open source community supported HTTP, which in turn allowed the web to flourish. Gopher's downfall can be attributed to its need of internal innovation and the fact that it obtained bad publiclity regarding licensing. I think that Web beat out Gopher simply because at the time the community thought it was the better path to take. 
+
+##5. 
+
+##6. A project idea would be to create some kind of app to hold peoples places in line at various events. I would use an MIT license for this because it is simple and allows users to do whatever they want as long as they have the original copyright and licnese. 
+
 ## 7. Licenses:
 ### 1. GPL
 GPL license allows you to copy, distribute, and modify the software as long as you track changes. Also any changes made must also be made available under the GPL license. This license it good for the greater good because everyone can collaborate and it creates a sense of community.
@@ -18,14 +24,11 @@ LPGL licenses are usually applied to libraries. Any derivate works can only be r
 ### 3. Apache/BSD
 Apache License doesn’t require you to release the modified code under the same license. Additionally, Apache has restrictions on trademark use. I think developers would like this license because it offers the most freedom and allows developers to do as they please with the software.
 
-
-
-
-
 ## 8. Repository with license:
 https://github.com/ariema/License_Test
 
-## 9. Project to work on:
+## 9. Project to work on: 
+A project idea for this course is to create an app that helps children with diabilities either learn or one that makes their lives just a little bit more simple. This is would be a humanitarian type project and thus I would want to get as many people involved as possible. Thus, I would use an MIT license for this project because it is easy to understand and allows people to contribute without worry. Also, it makes it easy for people to further develop the code and create a better product. 
 
 ## 10. Table of Projects:
 |  Website           |License Present|    License                   |
