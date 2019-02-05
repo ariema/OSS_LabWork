@@ -10,18 +10,19 @@ If a project does not have a license it is unknown what the user is allowed to d
 
 ## 7. Licenses:
 ### 1. GPL
-GPL license allows you to copy, distribute, and modify the software as long as you track changes. Also any changes made must also be made avaialbel under the GPL lincense. THis license it good for  
+GPL license allows you to copy, distribute, and modify the software as long as you track changes. Also any changes made must also be made available under the GPL license. This license it good for the greater good because everyone can collaborate and it creates a sense of community.
 
 ### 2. LPGL
-LPGL licenses are usually applied to libraries. Any derivate works can only be redistributed under LGPL, but applications that use the new software do not have to be. 
+LPGL licenses are usually applied to libraries. Any derivate works can only be redistributed under LGPL, but applications that use the new software do not have to be. This license aligns with businesses because it would allow them to build proprietary software on top of libraries which are open source.
 
 ### 3. Apache/BSD
-Apache has restirctions on treademark use
+Apache License doesn’t require you to release the modified code under the same license. Additionally, Apache has restrictions on trademark use. I think developers would like this license because it offers the most freedom and allows developers to do as they please with the software.
+
 
 
 
 ## 8. Repository with license:
-[https://github.com/ariema/License_Test]
+https://github.com/ariema/License_Test
 
 ## 9. Project to work on:
 
@@ -34,7 +35,4 @@ Apache has restirctions on treademark use
 |https://github.com/botusers/mco-menu-checker-online|yes|Apache License 2.0 <br> https://en.wikipedia.org/wiki/Apache_License|
 |https://github.com/nicklczk/howareyou|yes|MIT license <br> https://en.wikipedia.org/wiki/MIT_License|
 
-### lgpl allws you to use closed source modules
-gpl great good
-lgpl company
-apache devloped
+This work is licensed under a http://creativecommons.org/licenses/by/4.0/ Creative Commons Attribution 4.0 International License.
