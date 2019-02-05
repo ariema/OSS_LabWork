@@ -1,4 +1,4 @@
-	# Lab 4: Licensing
+# Lab 4: Licensing
 
 ## 2. Choosing a License:
 
