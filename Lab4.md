@@ -1,19 +1,22 @@
+	# Lab 4: Licensing
+
 ## 2. Choosing a License:
 
 It is important to choose a license so that other people know what they can and cannot do with your code. If you do not have a license, the default copyright laws apply, which state that no one can reproduce or change your work. Thus, without a license it is impossible for a project to be truly open source.
 
-## 3. Dont use a project without a license:
+## 3. Don’t use a project without a license:
 
 If a project does not have a license it is unknown what the user is allowed to do with it. Thus it is dangerous to copy this code because you could get sued since the project may be under default copyright laws. Thus no license does not imply that it is free to use and edit, conversely it implies the opposite.
 
 ## 4. Why the Web beat Gopher:
 
-Yes, I do agree with this claim. The Web beat Gopher because the open source community supported HTTP, which in turn allowed the web to flourish. Gopher's downfall can be attributed to its need of internal innovation and the fact that it obtained bad publiclity regarding licensing. I think that Web beat out Gopher simply because at the time the community thought it was the better path to take. 
+Yes, I do agree with this claim. The Web beat Gopher because the open source community supported HTTP, which in turn allowed the web to flourish. Gopher's downfall can be attributed to its need of internal innovation and the fact that it obtained bad publicity regarding licensing. I think that Web beat out Gopher simply because at the time the community thought it was the better path to take. 
 
-## 5. 
+## 5. Since Linux is the base of open source operating systems, it is essential that it ensures that its source code remains open and free. This is an attribute of the GPL license. Also, the GPL states that one cannot charge for derivate works. This also is an attribute of Linux because lots of companies build off of it and thus it grows as a whole. 
+Link to article: https://www.novell.com/coolsolutions/feature/1532.html
 
 ## 6. Project idea and license:
- A project idea would be to create some kind of app to hold peoples places in line at various events. I would use an MIT license for this because it is simple and allows users to do whatever they want as long as they have the original copyright and licnese. 
+ A project idea would be to create some kind of app to hold peoples places in line at various events. I would use an MIT license for this because it is simple and allows users to do whatever they want as long as they have the original copyright and license. 
 
 ## 7. Licenses:
 ### 1. GPL
@@ -29,7 +32,7 @@ Apache License doesn’t require you to release the modified code under the same
 https://github.com/ariema/License_Test
 
 ## 9. Project to work on: 
-A project idea for this course is to create an app that helps children with diabilities either learn or one that makes their lives just a little bit more simple. This is would be a humanitarian type project and thus I would want to get as many people involved as possible. Thus, I would use an MIT license for this project because it is easy to understand and allows people to contribute without worry. Also, it makes it easy for people to further develop the code and create a better product. 
+A project idea for this course is to create an app that helps children with disabilities either learn or one that makes their lives just a little bit more simple. This is would be a humanitarian type project and thus I would want to get as many people involved as possible. Thus, I would use an MIT license for this project because it is easy to understand and allows people to contribute without worry. Also, it makes it easy for people to further develop the code and create a better product. 
 
 ## 10. Table of Projects:
 |  Website           |License Present|    License                   |
