@@ -10,9 +10,10 @@ If a project does not have a license it is unknown what the user is allowed to d
 
 Yes, I do agree with this claim. The Web beat Gopher because the open source community supported HTTP, which in turn allowed the web to flourish. Gopher's downfall can be attributed to its need of internal innovation and the fact that it obtained bad publiclity regarding licensing. I think that Web beat out Gopher simply because at the time the community thought it was the better path to take. 
 
-##5. 
+## 5. 
 
-##6. A project idea would be to create some kind of app to hold peoples places in line at various events. I would use an MIT license for this because it is simple and allows users to do whatever they want as long as they have the original copyright and licnese. 
+## 6. Project idea and license:
+ A project idea would be to create some kind of app to hold peoples places in line at various events. I would use an MIT license for this because it is simple and allows users to do whatever they want as long as they have the original copyright and licnese. 
 
 ## 7. Licenses:
 ### 1. GPL
