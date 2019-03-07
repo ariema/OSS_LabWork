@@ -25,3 +25,19 @@
 ## Code for 4 letter solution:
 Source code file: [4words.py](4words.py)
 
+## Results for words without ordering
+
+### chaos to order (no ordering):
+![image](chaosNO.PNG)
+
+### nodes to graph (no ordering):
+![image](nodesNO.PNG)
+
+### moron to smart (no ordering):
+![image](moronNO.PNG)
+
+### pound to marks (no ordering):
+![image](poundNO.PNG)
+
+## Code for NON-ORDERED solution:
+Source code file: [no_order_words.py](no_order_words.py)
