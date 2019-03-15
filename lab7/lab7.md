@@ -5,8 +5,8 @@
 ![image](intro2.PNG)
 
 ## Multiple and Logistic Regression: Parallel Slopes
-![image](part2.png)
-![image](part2b.png)
+![image](part2.PNG)
+![image](part2b.PNG)
 
 ## Link to obsevatory page: 
-[link](https://rcos.io/projects/ethanlynn/impac/profile)
+[https://rcos.io/projects/ethanlynn/impac/profile](https://rcos.io/projects/ethanlynn/impac/profile)
