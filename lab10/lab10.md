@@ -25,7 +25,7 @@ Output of checkpoint4 script with all necessary records printed:<br>
 
 ## Checkpoint 5:
 
-Script to find random word and update timestamp:
-[checkpoint5.py](checkpoint5.py)
-THe first duplicate I found was the word capitland, as you can see it has 2 timestamps:<br>
+Script to find random word and update timestamp:<br>
+[checkpoint5.py](checkpoint5.py) <br>
+The first duplicate I found was the word capitland, as you can see it has 2 timestamps:<br>
 ![image](ex5.png)
